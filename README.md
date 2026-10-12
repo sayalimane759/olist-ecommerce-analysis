@@ -1,7 +1,7 @@
 # Olist E-commerce Data Analysis
 
 ## Project Overview
-This project analyzes Brazilian e-commerce data from Olist to understand sales trends, product performance, payment methods, customer reviews, and delivery performance.
+Exploratory data analysis of Brazilian e-commerce data from Olist to understand sales trends, product performance, payment preferences, customer reviews, and delivery performance.
 
 ## Tools & Technologies
 - Python
@@ -10,19 +10,29 @@ This project analyzes Brazilian e-commerce data from Olist to understand sales t
 - Matplotlib
 - Jupyter Notebook
 
-## Key Analysis
-- Cleaned and explored multiple datasets.
-- Analyzed sales and freight values.
-- Identified top-performing product categories.
-- Visualized monthly sales trends.
-- Examined payment methods and customer review scores.
-- Investigated order delivery delays.
+## Key Findings
+- Total item sales value was approximately **R$13.59 million**.
+- Health and beauty was the top product category by item sales value.
+- Approximately **6.77%** of orders with known delivery delays were delivered late.
+- Late orders experienced an average delay of **10.62 days**.
+- Late orders had an average review score of **2.27/5**, compared with **4.21/5** for early or on-time orders.
+- Credit cards were the most frequently used payment method.
+- São Paulo (SP) had the largest customer base in the dataset.
+
+## Analysis Performed
+- Data cleaning and missing-value checks
+- Sales and monthly order trend analysis
+- Product category and seller performance analysis
+- Payment method analysis
+- Customer review analysis
+- Delivery performance analysis
+- Visualizations using Matplotlib
 
 ## Dataset
-Source: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+[Brazilian E-Commerce Public Dataset by Olist — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-## Project Files
-- `Olist_Ecommerce_Analysis.ipynb` — Jupyter Notebook containing the analysis and visualizations.
+## Project File
+- `Olist_Ecommerce_Analysis.ipynb` — analysis, calculations, and visualizations.
 
 ## Author
 Sayali Mane
